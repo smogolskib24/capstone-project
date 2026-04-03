@@ -1,5 +1,6 @@
-Device Configurator Framework
-Capstone Proposal | README.md | Ben Smogolski
+# Device Configurator Framework
+
+### Capstone Proposal | README.md | Ben Smogolski
 
 
 
@@ -7,11 +8,11 @@ This project and lab will challenge students to implement a menu-driven network 
 
 
 
-Project Structure:
+#### Project Structure:
 
 
 
-The expected Python file structure is as follows:
+The expected Python file structure is as follows...
 
 
 
@@ -29,7 +30,7 @@ The expected Python file structure is as follows:
 
 
 
-Design Rationale:
+#### Design Rationale:
 
 
 
@@ -37,7 +38,7 @@ Only one Python script is called by the user (capstone\_main.py). This is the ma
 
 
 
-Learning Objectives:
+#### Learning Objectives:
 
 
 
@@ -49,32 +50,32 @@ Learning Objectives:
 
 
 
-Prerequisites:
+#### Prerequisites:
 
 
 
-Python 3 environment with text editor...
+##### Python 3 environment with text editor...
 
 
 
-&#x20;       python –version
+&#x09;python –version
 
+#### 
 
-
-Netmiko and Requests libraries...
+##### Netmiko and Requests libraries...
 
 
 
 &#x09;pip install netmiko
 	pip install requests
 
+#### 
+
+##### Cisco CSR 1000v router with the following commands...
 
 
-Cisco CSR 1000v router with the following commands...
 
-
-
-&#x20;       enable
+&#x09;enable
 	config terminal
 	ip http secure-server
 	remote-management
