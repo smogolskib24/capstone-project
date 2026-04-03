@@ -15,7 +15,7 @@ def dev_main():
 
             print("Current Device: "+ var_router["host"])
                                                               
-            print("1. show ip int br" + "\n" + "2. show ver uptime" + "\n" + "3. show ip route (REST)" + "\n" + "9. Return to Main" + "\n" + "________\n")
+            print("1. show ip int br" + "\n" + "2. show ver uptime" + "\n" + "3. interfaces-state (REST)" + "\n" + "9. Return to Main" + "\n" + "________\n")
             
             user_input = input("Selection: ")
             user_input = int(user_input)
