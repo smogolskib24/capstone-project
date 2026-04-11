@@ -6,7 +6,7 @@
 
 This project and lab will challenge students to implement a menu-driven network device management application. The lab uses Python, RESTCONF, and Netmiko libraries to interact with network devices through the command line interface. Emphasis is placed on logical menu structure, flexible design, and modularity. The objective of the lab is to establish a solid framework for a comprehensive network automation application. The concept of extendable menus and submenus will be explored. Students will call functions from secondary Python scripts through import statements. Device inventories and details are stored as text files but are retrieved dynamically. The finished lab will implement basic Cisco IOS functions (no advanced networking knowledge is required). Upon completing the lab, students will be able to add functions and menu options without needing to re-write existing code. Ideas for improved modularity will be explored as well.
 
-#### Success Indicators
+#### Success Indicators:
 
 Upon completion of the lab, students will have assembled a functional Python application that connects to a Cisco router to execute simple “show” commands. Upon providing a username and password, the application connects to the router, outputs resulting text from the “show” command(s), and returns to the previous menu without errors.
 
