@@ -32,7 +32,7 @@ This lab uses the JSON format to store device information within a text file. Py
 
 ### Project Structure
 
-The file structure of the Project coincides with the modular, menu-driven application design. Each menu sub-function is imported from a separate file, as noted at the top of each script (e.g. from get_current_device import get_current_device). We chose to selectively import functions using the from keyword; this was a random design choice and not a requirement. Alternatively, students can import entire modules and call functions by prefixing them with the module name (get_current_device.get_current_device()).
+The file structure of the Project coincides with the modular, menu-driven application design. Each menu sub-function is imported from a separate file, as noted at the top of each script (e.g. from get_current_device import get_current_device). We chose to selectively import functions using the from keyword; this was a random design choice and not a requirement. Alternatively, students can import entire modules and call functions by prefixing them with the module name (`get_current_device.get_current_device()`).
 
 ### Scope and Time Commitment
 
