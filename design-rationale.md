@@ -1,5 +1,5 @@
 # Device Configurator Framework
-## Capstone Design Rationale v1.0
+## Capstone Design Rationale v1.0 | Ben Smogolski
 
 ### Overview
 
