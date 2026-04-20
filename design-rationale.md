@@ -28,7 +28,7 @@ net_connect.disconnect()
 
 ### The Use of JSON
 
-This lab uses the JSON format to store device information within a text file. Python dictionaries and JSON have a symbiotic relationship because they are visually interchangeable. We use json.load() to read the device information from the text file and assign it as current_device. We then print the device IP address by accessing elements of the dictionary (`var_router[“host”]`).
+This lab uses the JSON format to store device information within a text file. Python dictionaries and JSON have a symbiotic relationship because they are visually interchangeable. We use `json.load()` to read the device information from the text file and assign it as current_device. We then print the device IP address by accessing elements of the dictionary (`var_router[“host”]`).
 
 ### Project Structure
 
