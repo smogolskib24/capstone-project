@@ -65,7 +65,7 @@ As presented, the Configurator Framework is unquestionably safe to run because i
 The student adds their own read-write commands/modules to the application,
 The script becomes a “runaway” process, creating a denial of service scenario for the router.
 
-Device credentials are protected by utilizing interactive logins rather than hard-coded credentials. Students must type in usernames and passwords for each connection to the router. The getpass() module is used to conceal the typed password.
+Device credentials are protected by utilizing interactive logins rather than hard-coded credentials. Students must type in usernames and passwords for each connection to the router. The `getpass()` module is used to conceal the typed password.
 
 Basic error handling comes in the form of try: and except: blocks within the code. Although error handling is not a focus of this lab, the modular nature of the project lends itself well to error containment methods. For example, errors can be reported based on the location of the function rather than the location of the initially called script.
 
