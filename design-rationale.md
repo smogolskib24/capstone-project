@@ -1,4 +1,5 @@
-## Capstone Design Rationale v1.0: Device Configurator Framework
+# Device Configurator Framework
+## Capstone Design Rationale v1.0
 
 ### Overview
 
