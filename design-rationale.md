@@ -42,6 +42,7 @@ The lab’s primary feature is its text-based menu system. This is a departure f
 
 Further, the menu system allows students to 1) go back to the previous menu and/or 2) quit the application. This provides a persistent experience without the feeling of being trapped:
 
+```
 print("*** MAIN MENU ***" + "\n" "________" + "\n")
 print("1. Inventory Management" + "\n" + "2. Device
 
@@ -54,7 +55,7 @@ print("*** DEVICE MANAGEMENT MODE ***" + "\n" "________" +
 
 print("1. show ip int br" + "\n" + "2. show ver uptime" +
 "\n" + "3. interfaces-state (REST)" + "\n" + "9. Return to Main" + "\n" + "________\n")
-
+```
 ### Safety and Error Handling
 
 As presented, the Configurator Framework is unquestionably safe to run because it does not include configuration commands, nor does it possess the innate ability to modify device configurations. The three Cisco functions presented in the lab are read-only and do not require a persistent connection. However, there are two possible ways for the application to become “unsafe”:
