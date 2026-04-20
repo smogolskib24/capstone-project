@@ -14,7 +14,7 @@ Upon completion of the lab, students will have assembled a functional Python app
 #### Project Structure:
 
 The expected Python file structure is as follows...
-
+```
 /capstone-project
 
 	capstone_main.py
@@ -28,7 +28,7 @@ The expected Python file structure is as follows...
 		show_ver_uptime.py
 		interfaces_rest.py
 		(...other Cisco IOS scripts)
-
+```
 #### Design Rationale:
 
 Only one Python script is called by the user (capstone\_main.py). This is the main menu which presents the user with two programming modes: Device Management and Inventory Management. Device Management is responsible for interacting with a singular device. Inventory Management is responsible for maintaining device lists which may be supplied to Device Management functions. Only select modules and functions will be implemented in this lab. The primary goal is to build a small but functional system that can be expanded and changed as needed. With some effort, the application may be suitable for use in a production environment.
