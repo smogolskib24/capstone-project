@@ -17,16 +17,18 @@ Approximately 20% of this lab is set aside for the conceptual improvements of th
 
 The Project uses the Python scripting language exclusively, as Python is touted as one of the most popular programming languages in the world (Cisco NetAcad, Python, n.d.). Cisco further claims that Python is “Easy to learn… teach… use… understand… and obtain” (Cisco NetAcad, Python, n.d.). Further, Netmiko is used due to its simplicity and widespread industry acceptance. After importing ConnectHandler from Netmiko, we require just four lines of functional code:
 
+```
 with ConnectHandler(**var_router) as conn:
 net_connect = ConnectHandler(**var_router)
 output = conn.send_command('show ip interface brief')
 net_connect.disconnect()
+```
 
 (Additional code is used to print and format the output).
 
 ### The Use of JSON
 
-This lab uses the JSON format to store device information within a text file. Python dictionaries and JSON have a symbiotic relationship because they are visually interchangeable. We use json.load() to read the device information from the text file and assign it as current_device. We then print the device IP address by accessing elements of the dictionary (var_router[“host”]).
+This lab uses the JSON format to store device information within a text file. Python dictionaries and JSON have a symbiotic relationship because they are visually interchangeable. We use json.load() to read the device information from the text file and assign it as current_device. We then print the device IP address by accessing elements of the dictionary (`var_router[“host”]`).
 
 ### Project Structure
 
