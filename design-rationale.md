@@ -98,7 +98,7 @@ This lab does not include any information or references to NETCONF, a popular au
 
 ### Conclusion
 
-The Device Configurator Framework lab takes a “macro” approach to network automation by wrapping functions into a flexible menu structure. Students will hopefully learn that simple Python scripts can be transformed into a tactile experience. Students will hopefully learn that rigid Python scripts can be transformed into an interactive, tactile experience. As this lab is unique in its approach, it offers learning opportunities beyond syntactic commands and functions. We’ve incorporated multiple components to assemble a complete application: Python, Netmiko, SSH, RESTCONF, JSON, and the Cisco CLI. We’ve also limited scope to remain mindful of time constraints. Ultimately, we’ve blended basic software design concepts into an efficient lab exercise.
+The Device Configurator Framework lab takes a “macro” approach to network automation by wrapping functions into a flexible menu structure. Students will hopefully learn that rigid Python scripts can be transformed into an interactive, tactile experience. As this lab is unique in its approach, it offers learning opportunities beyond syntactic commands and functions. We’ve incorporated multiple components to assemble a complete application: Python, Netmiko, SSH, RESTCONF, JSON, and the Cisco CLI. We’ve also limited scope to remain mindful of time constraints. Ultimately, we’ve blended basic software design concepts into an efficient lab exercise.
 
 ### References:
 
