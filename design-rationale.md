@@ -47,7 +47,7 @@ It’s important to note that the Project contains two distinct modules, Device 
 
 ### Scope and Time Commitment
 
-Initially, the lab appears to be a lengthy endeavour and may be intimidating once students learn that multiple files and functions will be created. There are two mitigating factors: 1) limited number of lines per file, and 2) advocating a copy and paste approach. Additionally, two of the functions/files can be skipped for time (show_ver_uptime.py and interfaces_rest.py). This lab demonstrates that functions are commodities; they can be added and removed as the situation demands. The important lesson is about incorporating them into a larger design.
+Initially, the lab appears to be a lengthy endeavour and may be intimidating once students learn that multiple files and functions will be created. There are two mitigating factors: 1) limited number of lines per file, and 2) advocating a copy and paste approach. Additionally, two of the functions/files can be skipped for time (show_ver_uptime.py and interfaces_rest.py). This lab demonstrates that functions are commodities; they can be added and removed as the situation demands. The important lesson is how to incorporate them into a larger design.
 
 ### Menu System
 
