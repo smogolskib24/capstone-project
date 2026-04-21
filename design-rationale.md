@@ -75,8 +75,8 @@ A menu map is provided as a supplement, further supporting the dynamic nature of
 
 As presented, the Configurator Framework is unquestionably safe to run because it does not include configuration commands, nor does it possess the innate ability to modify device configurations. The three Cisco functions presented in the lab are read-only and do not require a persistent connection. However, there are two possible ways for the application to become “unsafe”:
 
-The student adds their own read-write commands/modules to the application,
-The script becomes a “runaway” process, creating a denial of service scenario for the router.
+1) The student adds their own read-write commands/modules to the application,
+2) The script becomes a “runaway” process, creating a denial of service scenario for the router.
 
 Device credentials are protected by utilizing interactive logins rather than hard-coded credentials. Students must type in usernames and passwords for each connection to the router. The `getpass()` module is used to conceal the typed password.
 
