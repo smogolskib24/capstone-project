@@ -8,4 +8,4 @@
 
 The screenshot below indicates 1) Python code executes without error 2) Current device information was read from the current_device.json file and 3) Successful Netmiko connection to the router, returning interface IP address information.
 
-![verification]("verification.png") 
+![verification](verification.png) 
