@@ -1,6 +1,6 @@
 # Device Configurator Framework | Verification | Ben Smogolski
 
-## Verification steps:
+## Verification Steps:
 1.	From the DEVASC VM console, run: `python3 capstone_main.py`
 2.	Select menu option 2
 3.	Select menu option 1
